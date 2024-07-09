@@ -1,0 +1,267 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sorter-wrapper {
+
+  margin: 3rem;
+
+  height: calc(68% - 6rem);
+
+  width: calc(85% - 6rem);
+
+  display: flex;
+
+  flex-direction: row;
+
+}
+
+.group-join-wrapper {
+
+  width: 100%;
+  display: flex;
+}
+.group-join-wrapper-final-center {
+  display: flex;
+  align-items: center;
+}
+.group-join-wrapper-final-center, .group-join-wrapper-final {
+  width: 100%;
+  display: flex;
+}
+.group-join-wrapper-final {
+  height: 50%;
+}
+.button-wrapper.final {
+  width: 100%;
+}
+.final-line-wrapper {
+
+  flex-grow: 1;
+  display: flex;
+
+}
+.final-line {
+ 
+  width: calc(50% - calc(0.11rem / 2));
+  border-right: .11rem solid #fff;
+}
+
+.group-join-wrapper-right {
+
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.button-wrapper {
+
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-around;
+}
+
+.button-style-1 {
+  height: 4rem;
+  border: .11rem solid #fff;
+  background-color: unset;
+  border-radius: 1rem;
+  /*Text*/
+  color: red;
+  font-family: Times;
+  font-size: 26px;
+  /* font-style: italic; */
+  font-family: 'Turret Road', cursive;
+  font-weight: 400;
+  min-width: 5rem;
+}
+
+
+
+.button-line-wrapper {
+
+  height: 100%;
+  width: 30%;
+  display: flex;
+}
+
+.start-button-line-wrapper {
+
+  height: 100%;
+  width: calc(50% - calc(0.11rem / 2));
+
+}
+
+.middle-button-line-wrapper {
+
+  height: 100%;
+  width: 0.11rem;
+}
+
+
+.end-button-line-wrapper {
+
+  height: 100%;
+  width: calc(50% - calc(0.11rem / 2));
+}
+
+
+/* sorteio.css | http://localhost/tcc/sorteio.css */
+
+.end-button-line-wrapper {
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+/* Inline #1 | http://localhost/tcc/ */
+
+.end-button-line-1,
+.end-button-line-2,
+.end-button-line-3,
+.end-button-line-4 {
+  height: 100%;
+  width: 100%;
+
+}
+
+.end-button-line-border {
+  height: calc(50% - calc(0.11rem / 2));
+  border-top: 0.11rem solid #fff;
+  transform: translatey(calc(100% - 0.11rem));
+}
+
+
+.start-button-line-1,
+.start-button-line-2,
+.start-button-line-3,
+.start-button-line-4 {
+  height: 100%;
+  width: 100%;
+
+}
+
+.start-button-line-wrapper {
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.start-button-line-border-top,
+.start-button-line-border-bottom {
+
+  height: 25%;
+  width: 100%;
+}
+
+.start-button-line-1,
+.start-button-line-2,
+.start-button-line-3,
+.start-button-line-4 {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.start-button-line-border-top,
+.start-button-line-border-bottom {
+  /* height: 25%; */
+  height: calc(25% - calc(0.11rem / 2));
+}
+
+.start-button-line-border-top {
+  border-bottom: 0.11rem solid #fff;
+}
+
+.start-button-line-border-bottom {
+  border-top: 0.11rem solid #fff;
+}
+
+.middle-button-line-1,
+.middle-button-line-2,
+.middle-button-line-3,
+.middle-button-line-4 {
+  height: 100%;
+  width: 100%;
+
+}
+
+/* sorteio.css | file:///C:/Users/User/Desktop/TCC/sorteio.css */
+
+.middle-button-line-wrapper {
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.middle-button-line-border {
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.middle-button-line-border-top,
+.middle-button-line-border-bottom {
+  height: calc(25% + calc(.11rem / 2));
+  border-right: 0.11rem solid #fff;
+}
+
+/* sorteio.css | file:///C:/Users/User/Desktop/TCC/sorteio.css */
+
+.middle-button-line-1,
+.middle-button-line-2,
+.middle-button-line-3,
+.middle-button-line-4 {
+  display: flex;
+  align-items: center;
+}
+
+.div-page-only {
+  margin: 20px;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-clear{
+  margin-inline: 150px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 0, 0, 0.603);
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-clear:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-clear {
+    padding: 0.25em 0.75em;
+  }
+}

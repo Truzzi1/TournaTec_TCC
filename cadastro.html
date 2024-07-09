@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title> Cadastro</title>
+    <link rel="stylesheet" href="css/csslogin.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    <style>
+      li{
+    padding: 0.6em;
+    list-style: none;
+    display: inline-block;
+}
+
+.a{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5em;
+}
+a:link{
+    color: red;
+    background-color: white;
+}
+a:hover{
+    color: white;
+    background-color: #770000;
+}
+a:active{
+    color: green;
+
+}
+    </style>
+
+
+
+</head>
+
+<body style="background-color: #31343b;">
+    
+  
+
+    
+    <header>
+        <a href="index.php"><img src="img/tournatec_logo.png"></a>
+        <p>Junte-se a nós</p>
+    </header>
+
+
+    <div class="container">
+        <!---->
+        <main class="form-signin">
+        <!--  <form action="cadastraUsuario.php" method="POST"> -->
+          <form>
+            <h1 class="form__title">Cadastrar-se </h1>
+    
+            
+
+            <div class="form-group">
+                <label for="nome" class="form__text">Nome</label>
+                <input type="text" class="form__input" id="nome" name="nome" value="nome">
+              </div>
+              <br>
+            <div class="form-group">
+              <label for="email" class="form__text">Email</label>
+              <input type="email" class="form__input" id="email" name="email" value="name@example.com">
+            </div>
+            <div class="form-group">
+              <br>
+              <label for="senha" class="form__title">Senha</label>
+              <input type="password" class="form__input" id="senha" name="senha" value="senha">
+              <div class="verSenha-BTN">
+            <button class="verSenha btn-senha" type="button" id="verSenha">
+              <span class="material-symbols-outlined" >visibility</span>
+            </button>
+            <p></p>
+          </div>
+          </div>
+          <p></p>
+          <button class="form__button" type="button"  id="botaoCadastra">Cadastrar</button>
+            <p></p>
+            <div class="centraliza">
+            <a href="frm_login.php"><label for="criar" class="centraliza"> Logar </label></a>
+          </div>
+     <!-- </form> --> 
+          </form> 
+        </main>
+    
+      </div>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/validacao/script.logincad.js"></script>
+    
+</body>

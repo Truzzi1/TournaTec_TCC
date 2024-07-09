@@ -1,0 +1,16 @@
+:root{
+
+}
+html, body{
+    height: 100%;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+header{
+    height: 12rem !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
